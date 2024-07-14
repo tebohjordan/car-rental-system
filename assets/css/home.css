@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: url("images/carbg2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+/*.main{
+   
+    width: 100%;
+     background: linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0)50%);
+    background-position: center;
+    background-size: cover;
+    height: 109vh; 
+    animation: infiniteScrollBg 50s linear infinite;
+} */
+.navbar{
+    width: auto;
+    height: 75px;
+    margin: auto;
+    border: 1px solid black;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top:10px;
+    background-color:aqua;
+    border-radius:10px;
+}
+
+.icon{
+    width:200px;
+    float: left;
+    height : 70px;
+    border:inline block;
+}
+
+.logo{
+    padding-left: 9px;
+    float:left;
+    padding-top: 1px;
+   
+}
+.menu{
+    width: 450px;
+    float: left;
+    height: 70px;
+    border:1px solid black;
+   
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color:orange;
+
+}
+.box{
+    
+    position:center;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    background: linear-gradient(to top, rgba(255, 251, 251, 0.8)50%,rgba(250, 246, 246, 0.8)50%);
+    display: flex;
+    align-content: center;
+    width: 600px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+
+
+.box .imgBx img{
+    max-width: 150%;
+}
+
+.box .content{
+    padding-left: 100px;
+}
+
+.box .button{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border:none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#fff;
+    transition: 0.4s ease;
+}
+
+.utton{
+    width: 240px;
+    height: 40px;
+   
+    background: #ff7200;
+    border:none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#fff;
+    transition: 0.4s ease;
+}
+
+
+
+
+.de{
+    float: left;
+    clear: left;
+    display: block;
+ 
+
+
+}
+
+
+.de li a:hover{
+    color:black;
+
+}
+.de .lis:hover{
+    color: white;
+}
+
+
+.nn{
+    width:100px;
+    /* background: #ff7200; */
+    border:none;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    transition: 0.4s ease;
+
+}
+
+
+.nn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.overview{
+    text-align: center;
+
+    margin-top: 40px;
+}
+
+.circle{
+    border-radius:48%;
+    width:65px;
+    
+}
+
+.phello{
+    width: 200px;
+    margin-left: -50px;
+    padding: 0px;
+}
+
+#stat{
+    margin-left:2px;
+}
+#nav{
+    border: 1px solid black;
+}
+#pro{
+    margin-left:200px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    width: 100%;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    width: 100%;
+    margin-top:25px;
+    padding-bottom:50px;
+
+}
+
+
+
+.blog-card {
+  border-radius: 90px;
+  border: 1px solid var(--white);
+  box-shadow: 2px;
+  overflow: hidden;
+ 
+}
+
+.blog-card .banner {
+  width: 470px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.blog-card .banner img {
+  height: 100%;
+  object-fit: cover;
+  border:1px solid black;
+  border-radius:10px
+}
+
+.blog-card .badge {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  --height: 15px;
+  --width: 92px;
+}
+
+.blog-card  { 
+padding: 10px; 
+margin-bottom: 20px; 
+color: inherit; 
+font-size:30px
+
+}
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img{
+    border-radius:50%;
+}
